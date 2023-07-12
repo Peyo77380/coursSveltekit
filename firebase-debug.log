@@ -1,0 +1,18 @@
+[debug] [2023-07-12T05:58:10.318Z] ----------------------------------------------------------------------
+[debug] [2023-07-12T05:58:10.320Z] Command:       /home/peyo/.nvm/versions/node/v20.1.0/bin/node /usr/bin/firebase deploy
+[debug] [2023-07-12T05:58:10.320Z] CLI Version:   12.4.3
+[debug] [2023-07-12T05:58:10.320Z] Platform:      linux
+[debug] [2023-07-12T05:58:10.320Z] Node Version:  v20.1.0
+[debug] [2023-07-12T05:58:10.321Z] Time:          Wed Jul 12 2023 07:58:10 GMT+0200 (Central European Summer Time)
+[debug] [2023-07-12T05:58:10.321Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-12T05:58:10.377Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-12T05:58:10.378Z] > authorizing via signed-in user (pierre.guichard77@gmail.com)
+[debug] [2023-07-12T05:58:10.378Z] [iam] checking project fireshipsveltecourse for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-12T05:58:10.379Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fireshipsveltecourse:testIamPermissions [none]
+[debug] [2023-07-12T05:58:10.379Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fireshipsveltecourse:testIamPermissions x-goog-quota-user=projects/fireshipsveltecourse
+[debug] [2023-07-12T05:58:10.379Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fireshipsveltecourse:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-12T05:58:11.509Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fireshipsveltecourse:testIamPermissions 200
+[debug] [2023-07-12T05:58:11.509Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fireshipsveltecourse:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-12T05:58:11.510Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireshipsveltecourse [none]
+[debug] [2023-07-12T05:58:11.822Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireshipsveltecourse 200
