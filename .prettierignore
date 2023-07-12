@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+fireshipsveltecourse-firebase-adminsdk-t2ihc-d79bb8c6b0.json
